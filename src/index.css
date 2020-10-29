@@ -1,13 +1,52 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+
+.weather-app {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #233d4d;
+  color: white;
+  height: 100vh;
+  min-width: 30%;
+  padding: 1.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+input {
+  margin: 2rem 0 4rem;
+}
+
+.sidebar h2 {
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.weather {
+  font-size: 1.5rem;
+}
+
+.charts {
+  height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+canvas {
+  margin: 4rem 0;
 }
