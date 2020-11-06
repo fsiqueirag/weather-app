@@ -10,16 +10,17 @@ body {
 
 .weather-app {
   display: flex;
+  width: 100vw;
 }
 
 .sidebar {
   background-color: #233d4d;
   color: white;
-  height: 100vh;
-  min-width: 30%;
+  height: 100%;
+  min-height: 100vh;
   padding: 1.5rem;
   text-align: center;
-  width: 30%;
+  width: 100%;
 }
 
 input {

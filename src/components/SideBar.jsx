@@ -13,7 +13,7 @@ export const SideBar = ({ weather, setWeather, setLoadingCharts }) => {
 
 
     return (
-        <div className="sidebar">
+        <div className="sidebar col-md-4">
             <div className="weather-description daily animate__animated animate__fadeIn">
                 <h1>Weather App</h1>
                 <InputForm setWeather={setWeather} setLoading={setLoading} setLoadingCharts={setLoadingCharts} setFetchFailed={setFetchFailed} />

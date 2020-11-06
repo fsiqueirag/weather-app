@@ -8,7 +8,7 @@ export const WeatherApp = () => {
 
 
     return (
-        <div className="weather-app">
+        <div className="weather-app row">
             <SideBar weather={weather} setWeather={setWeather} setLoadingCharts={setLoadingCharts} />
             <Charts weather={weather} setLoadingCharts={setLoadingCharts} loadingCharts={loadingCharts} />
         </div>
